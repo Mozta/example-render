@@ -37,6 +37,3 @@ def get_task(id):
     if this_task == 0:
         abort(404)
     return jsonify({'task': this_task})
-
-if __name__ == '__main__':
-    app.run(debug=True)
